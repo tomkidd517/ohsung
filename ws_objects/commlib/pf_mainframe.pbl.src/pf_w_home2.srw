@@ -32,6 +32,9 @@ destroy(this.p_header)
 destroy(this.uo_notice)
 end on
 
+event open;call super::open;//
+end event
+
 type ln_templeft from pf_w_sheet`ln_templeft within pf_w_home2
 end type
 
