@@ -1,0 +1,5 @@
+start session
+set liblist "C:\Project\Powerframe_v3.03\source\commlib\pf_application.pbl;C:\Project\Powerframe_v3.03\source\commlib\pf_mainframe.pbl;C:\Project\Powerframe_v3.03\source\commlib\pf_controls.pbl;C:\Project\Powerframe_v3.03\source\commlib\pf_rolemanage.pbl;C:\Project\Powerframe_v3.03\source\commlib\pf_utilities.pbl;C:\Project\Powerframe_v3.03\source\commlib\pf_appservice.pbl;C:\Project\Powerframe_v3.03\source\commlib\pf_datawindow.pbl;C:\Project\Powerframe_v3.03\source\commlib\pf_examples.pbl;C:\Project\Powerframe_v3.03\source\commlib\appeon_workarounds.pbl;"
+set application "C:\Project\Powerframe_v3.03\source\commlib\pf_application.pbl" "powerframe"
+build project "C:\Project\Powerframe_v3.03\source\commlib\pf_application.pbl" "p_powerframe"
+end session

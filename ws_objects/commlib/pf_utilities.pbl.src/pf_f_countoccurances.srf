@@ -1,0 +1,23 @@
+﻿$PBExportHeader$pf_f_countoccurances.srf
+$PBExportComments$문자열안에 특정 문자가 몇 번 반복되는지 카운트 합니다.
+global type pf_f_countoccurances from function_object
+end type
+
+forward prototypes
+global function long pf_f_countoccurances (string as_sourcestr, string as_searchstr)
+end prototypes
+
+global function long pf_f_countoccurances (string as_sourcestr, string as_searchstr);// 문자열안에 특정 문자가 몇 번 반복되는지 카운트 합니다.
+
+long ll_pos, ll_cnter
+
+ll_pos = pos(as_sourcestr, as_searchstr)
+do while ll_pos > 0
+	ll_cnter ++
+	ll_pos = pos(as_sourcestr, as_searchstr, ll_pos + len(as_searchstr))
+loop
+
+return ll_cnter
+
+end function
+

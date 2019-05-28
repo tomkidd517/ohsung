@@ -1,0 +1,22 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "commlib\\pf_application.pbl" "";
+@end;
+@begin Objects
+ "commlib\\pf_n_appsession.sru" "commlib\\pf_application.pbl";
+ "commlib\\pf_m_empty_shortcutkey.srm" "commlib\\pf_application.pbl";
+ "commlib\\pf_d_appconfig.srd" "commlib\\pf_application.pbl";
+ "commlib\\pf_n_appconfig.sru" "commlib\\pf_application.pbl";
+ "commlib\\pf_w_child.srw" "commlib\\pf_application.pbl";
+ "commlib\\pf_w_frame.srw" "commlib\\pf_application.pbl";
+ "commlib\\powerframe.sra" "commlib\\pf_application.pbl";
+ "commlib\\p_powerframe.srj" "commlib\\pf_application.pbl";
+ "commlib\\pf_w_response.srw" "commlib\\pf_application.pbl";
+ "commlib\\pf_w_sheet.srw" "commlib\\pf_application.pbl";
+ "commlib\\pf_m_empty.srm" "commlib\\pf_application.pbl";
+ "commlib\\pf_w_window.srw" "commlib\\pf_application.pbl";
+ "commlib\\pf_n_appmanager.sru" "commlib\\pf_application.pbl";
+ "commlib\\pf_w_popup.srw" "commlib\\pf_application.pbl";
+ "commlib\\pf_n_nonvisualobject.sru" "commlib\\pf_application.pbl";
+ "commlib\\pf_u_userobject.sru" "commlib\\pf_application.pbl";
+@end;
